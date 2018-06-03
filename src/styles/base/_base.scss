@@ -1,0 +1,23 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: $m-size;
+  background: lightgrey;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: $purple;
+  color: #fff;
+  &:disabled { opacity: 0.5; }
+}
+
+.is-active {
+  color: red;
+  font-weight: bold;
+}
